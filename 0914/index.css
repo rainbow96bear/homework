@@ -1,0 +1,59 @@
+#taskList {
+  border: 1px solid black;
+}
+#addTaskWindow {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+#addTaskWindow #info {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+#addTaskWindow button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+.addTaskBoxShow {
+  display: none;
+}
+#textInput {
+  width: 500px;
+  line-height: 50px;
+}
+#editWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#editWindow {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+.editBoxShow {
+  display: none;
+}
+#taskList div {
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid green;
+  border-radius: 10px;
+}
+.complete {
+  background-color: black;
+  color: white;
+}

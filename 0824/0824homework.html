@@ -1,0 +1,127 @@
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <form action="#">
+        <fieldset id="basic_size">
+          <legend>나는 누구인가</legend>
+          <div>
+            <table>
+              <tr>
+                <td colspan="4">
+                  <div>
+                    <label for="text"> 자기 소개서 제목:</label>
+                    <input type="text" autofocus />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <label for="email">e-mail :</label>
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <input type="email" name="email" />
+                  </div>
+                </td>
+                <td>
+                  <div style="float: left">
+                    <label for="pw">PW :</label>
+                  </div>
+                </td>
+                <td>
+                  <div style="float: left">
+                    <input type="password" name="pw" />
+                  </div>
+                </td>
+                <td colspan="2">
+                  <div>
+                    <div style="display: inline">
+                      <label for="gender">남:</label>
+                      <input type="radio" name="gender" id="남" value="남" />
+                      <label for="gender">여:</label>
+                      <input type="radio" name="gender" id="여" value="여" />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <label for="name">이름 :</label>
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <input type="text" name="name" />
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <label for="age">나이 :</label>
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <input type="number" name="age" />
+                  </div>
+                </td>
+                <td>
+                  <div style="margin: 0">지역 :</div>
+                </td>
+                <td>
+                  <div>
+                    <select name="region" id="live_region">
+                      <option value="서울">서울</option>
+                      <option value="경기도">경기도</option>
+                      <option value="인천">인천</option>
+                      <option value="강원도">강원도</option>
+                      <option value="충청북도">충청북도</option>
+                      <option value="충청남도">충청남도</option>
+                      <option value="전라북도">전라북도</option>
+                      <option value="전라남도">전라남도</option>
+                      <option value="경상북도">경상북도</option>
+                      <option value="경상남도">경상남도</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <div>
+                  <label for="introduce">자기 소개 :</label>
+                </div>
+                <div>
+                  <textarea
+                    name="introduce"
+                    id="introduce"
+                    cols="92"
+                    rows="30"></textarea>
+                </div>
+              </tr>
+            </table>
+          </div>
+          <div class="position_center padding_top_10">
+            <label for="agree">위의 내용을 올바르게 입력하셨습니까?</label>
+            <input type="checkbox" />
+          </div>
+          <div class="position_center padding_top_10">
+            <button class="float">제출하기</button>
+            <button type="reset">다시 작성하기</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

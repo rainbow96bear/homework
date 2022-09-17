@@ -1,0 +1,103 @@
+#event_banner {
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+  border: 3px dashed blue;
+  border-radius: 20px;
+  font-size: 20px;
+}
+#event_banner .event {
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  background-color: brown;
+  padding: 5px;
+}
+.event_content {
+  display: inline;
+  color: blue;
+  padding: 5px;
+}
+#menu_board_size {
+  min-height: 100vh;
+  height: fit-content;
+
+  background-size: contain;
+  background-image: url(/homework/0825/logo.jpg);
+  border: 5px double blue;
+  border-radius: 20px;
+}
+#menu_banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#menu_banner .menu_box {
+  min-width: 100px;
+  width: 45%;
+  max-width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: pink;
+  border: 3px double blue;
+  border-radius: 5px;
+  margin: 5px;
+}
+#menu_banner .menu_box .menu_name {
+  background-color: beige;
+  border: 2px solid brown;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+}
+.span_red {
+  color: red;
+}
+#menu_banner .menu_box .food_box {
+  background-color: antiquewhite;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-width: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+.food {
+  width: fit-content;
+  background-color: antiquewhite;
+  height: fit-content;
+  border: 3px solid red;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 3px;
+  padding: 5px;
+}
+.food.img {
+  border-radius: 5px;
+}
+.img_box {
+  width: 100px;
+  height: 60px;
+  background-size: contain;
+}
+.food.text {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+#top_banner {
+  position: sticky;
+  top: 5px;
+  background-color: lightblue;
+  border: 5px double blue;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+}

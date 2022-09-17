@@ -1,0 +1,31 @@
+#basic_size {
+  width: fit-content;
+}
+button {
+  margin: 5px;
+}
+div {
+  padding: 3px;
+}
+.float_left {
+  display: float-left;
+}
+.h_max {
+  height: max-content;
+}
+.margin_right_30 {
+  margin-right: 30px;
+}
+.padding_top_10 {
+  padding-top: 10px;
+}
+.position_center {
+  width: fit-content;
+  margin: auto;
+}
+.text_left {
+  text-align: left;
+}
+.w_min {
+  width: min-content;
+}

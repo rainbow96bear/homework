@@ -1,0 +1,330 @@
+<html lang="ko">
+  <head>
+    <meta charste="UTF-8" />
+    <meta http-equic="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .paper {
+      width: fit-content;
+      height:auto;
+    }
+    .box {
+      width: fit-content;
+      height: wrap;
+      border: 1px solid black;
+    }
+    .card {
+      margin-top: 10px;
+    }
+    .center {
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    th {
+      background-color: lightgray;
+      border: 1px solid black;
+    }
+    td {
+      border: 1px solid black;
+    }
+    .thickNotColor{
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    .thick{
+        padding-left: 10px;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        background-color: lightgray;
+    }
+    .leftside{
+        border-left: 1px solid white;
+    }
+    .rightside{
+        border-right: 1px solid white;
+    }
+    .center{
+        height: fit-content;
+        width: auto;
+        text-align: center;
+    }
+    table{
+        border-collapse:collapse;
+        width: 100%;
+    }
+    .notThing{
+        background-color: white;
+        border:1px solid white;
+        width:70%;
+        margin: auto;
+    }
+    #image{
+        width: 130px;
+        height: 100%;
+    }
+    .photoLineStyle.right{
+        float: left;
+        border:1px solid black;
+        width:auto;
+        height: 150px;
+        margin-bottom: 20px;
+        border:1px solid black;   
+    }
+    .photoLineStyle.left{
+        
+        border:1px solid black;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+        border:1px solid white;
+    }
+    tr{
+        height: 30px;
+    }
+    .paddingLR20{
+        padding-left: 30px;padding-right: 30px;
+    }
+    .backgroundWhite{
+        background-color:white;
+    }
+    .lastText{
+        width:100%; height: 100px;
+    }
+    .floatRight{
+        float:right;
+    }
+    .floatRight > .height40{
+        float:right;
+        height: 40px;
+    }
+    .screenCenter{
+        width: fit-content;
+        margin:auto;
+    }
+    
+  </style>
+  <body>
+    <div class="paper screenCenter">
+      <div class="center">
+        <table class="notThing">
+            <th class="notThing">
+            <h1>이력서</h1>
+            </th>
+        </table>
+      </div>
+      <div class="paper">
+        <div class="photoLineStyle right">
+          <img id="image" src="image.jpg">
+        </div>
+        <div class="photoLineStyle left">
+          <table class="thickNotColor">
+            
+              <tr>
+                <th class="leftside">성명</th>
+                <td>김성진</td>
+                <th>영문</th>
+                <td class="rightside" colspan="3">Kim Sung Jin</td>
+              </tr>
+              <tr>
+                <th class="leftside">한문</th>
+                <td>金星珍</td>
+                <th>나이(만)</th>
+                <td class="rightside">26세</td>
+              <tr>
+                <th class="leftside">생년월일</th>
+                <td class="rightside"colspan="3">1996년 01월 05일</td>
+                
+              </tr>
+              <tr>
+                <th class="leftside">휴대폰</th>
+                <td class="rightside" colspan="3">010-3098-6017</td>
+              </tr>
+              <tr>
+                <th class="leftside">전화번호</td>
+                <td class="rightside"colspan="3">031-707-6017</td>
+              </tr>
+              <tr >
+                <th class="leftside">이메일</th>
+                <td class="rightside" colspan="5">rainbow96bear@gmail.com</td>
+              </tr>
+              <tr>
+                <th class="leftside">주소</th>
+                <td class="rightside"colspan="5">성남시 분당구 벌말로 30번길12</td>
+              </tr>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div>
+          <table class="thick">
+              <tr>
+                <th class="leftside">보훈대상자</th>
+                <td class="backgroundWhite rightside">해당 □ 해당 없음 ■</td>
+              </tr>
+              <tr>
+                <th class="leftside">장애여부</th>
+                <td class="rightside backgroundWhite">해당 □ 해당 없음 ■</td>
+              </tr>
+          </table>
+        </div>
+        <div class="card">
+          <table>
+            <tbody>
+              <tr>
+                <td class="thick" colspan="2">학력사항 (최종학력: 우송정보대학 졸업예정)</td>
+              </tr>
+              <tr>
+                <td class="center leftside">재학기간</td>
+                <td class="rightside">2015.03~2022.02</td>
+              </tr>
+              <tr>
+                <td class="center leftside">학교명 및 전공</td>
+                <td class="rightside">수원 대학교 전기공학과</td>
+              </tr>
+              <tr>
+                <td class="center leftside">학점</td>
+                <td class="rightside"> 3.52</td>
+              </tr>
+              <tr>
+                <td class="center leftside">구분</td>
+                <td class="rightside">주간</td>
+              </tr>
+              <tr>
+                <td class="center leftside">소재지</td>
+                <td class="rightside">수원</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card">
+          <table>
+            <tbody>
+              <tr>
+                <td class="thick" colspan="4">자격증</td>
+              </tr>
+              <tr class="center">
+                <td class="leftside">취득일</td>
+                <td>자격증/면허증</td>
+                <td>등급</td>
+                <td class="rightside">발행처</td>
+              </tr>
+              <tr>
+                <td class="leftside">2021.09</td>
+                <td>전기기사</td>
+                <td></td>
+                <td class="rightside">한국산업인력공단</td>
+              </tr>
+              <tr>
+                <td class="leftside">2016.07</td>
+                <td>운전면허</td>
+                <td>2종보통</td>
+                <td class="rightside"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card">
+          <table>
+            <tr>
+              <td colspan="5" class="thick">
+                주요활동 및 경력
+              </td>
+            </tr>
+            <tr>
+              <td class="center leftside">기간</td>
+              <td class="rightside">2021.06~2022.02</td>
+            </tr>
+            <tr>
+              <td class="center leftside">활동내용</td>
+              <td class="rightside">반도체 공정교육 담당</td>
+            </tr>
+            <tr>
+              <td class="center leftside">활동구분</td>
+              <td class="rightside">교육 조교</td>
+            </tr>
+            <tr>
+              <td class="center leftside">기관/업체명</td>
+              <td class="rightside">수원대학교</td>
+            </tr>
+          </table>
+        </div>
+        <div class="card">
+          <table>
+            <tr>
+              <td colspan="6"class="thick">능력사항</td>
+            </tr>
+            <tr class="center">
+              <td rowspan="3" class="leftside">OA능력</td>
+              <td>워드/한글</td>
+              <td class="right">상 □ / 중 ■ / 하 □</td>
+              
+            </tr>
+            <tr class="center rightside">
+              <td>액셀</td>
+              <td>상 □ / 중 ■ / 하 □</td>
+              
+            </tr>
+            <tr class="center rightside">
+              <td>파워 포인트</td>
+              <td>상 □ / 중 ■ / 하 □</td>
+              
+            </tr>
+            <tr class="center">
+              
+              <td rowspan="3" class="leftside">어학능력</td>
+              <td>영어</td>
+              <td class="rightside">상 □ / 중 ■ /하 □</td>
+            </tr>
+            <tr class="center">
+              
+              <td>일본어</td>
+              <td class="rightside">상 □ / 중 ■ /하 □</td>
+            </tr>
+            <tr class="center">
+              
+              <td>기타 (    )</td>
+              <td class="rightside">상 □ / 중 ■ /하 □</td>
+            </tr>
+          </table>
+        </div>
+        <div class="card">
+          <table>
+            <tr>
+              <td class="thick" colspan="5">병역사항</td>
+            </tr>
+            <tr class="center">
+              <td class="leftside">복무기간</td>
+              <td>군별</td>
+              <td>계급</td>
+              <td>병과</td>
+              <td class="rightside">전역사유</td>
+            </tr>
+            <tr>
+              <td class="leftside">2017.02~2018.11</td>
+              <td>군필</td>
+              <td>병장</td>
+              <td>정보</td>
+              <td class="rightside"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="lastText">
+        <div class="floatRight">
+            <h4>위에 기재한 사항은 사실과 틀림이 없습니다.</h4>
+            <div class="height40">
+                2022년 08월 23일
+            </div>
+        </div>
+      </div>
+      <div class="lastText">
+        <div class="floatRight">성명 : 김성진 (인)</div>
+      </div>
+    </div>
+  </body>
+</html>

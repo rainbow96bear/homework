@@ -1,0 +1,39 @@
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div style="position: relative">
+      <div>
+        <button id="addTaskBtn">할 일 추가</button>
+      </div>
+      <div id="addTaskBox" class="addTaskBoxShow">
+        <div id="addTaskWindow">
+          <div id="info">할 일을 입력해주세요.</div>
+          <input id="textInput" type="text" />
+          <div>
+            <button id="cancleBtn">취소</button>
+            <button id="acceptBtn">확인</button>
+          </div>
+        </div>
+      </div>
+      <div id="editBox" class="editBoxShow">
+        <div id="editWindow">
+          <input id="editText" type="text" />
+          <div>
+            <button id="goBack">돌아가기</button>
+            <button id="taskChange">수정</button>
+            <button id="taskDelete">삭제</button>
+            <!-- <button id="taskComplete">완료</button> -->
+          </div>
+        </div>
+      </div>
+      <div id="taskList"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,776 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 980px;
+  box-sizing: border-box;
+
+  background-color: rgba(247, 247, 247, 0.973);
+}
+
+#top_banner_base {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#top_banner_base a {
+  text-decoration: none;
+  color: black;
+}
+#top_banner_base div {
+  width: 30%;
+}
+#top_banner_base .menu_button {
+  height: 30px;
+  padding: 0 20;
+}
+#top_banner_base .menu_button button {
+  background-size: contain;
+  background-image: url(/homework/0826/login_icon/검정\ 메뉴.png);
+  background-repeat: no-repeat;
+  background-repeat: none;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  background-color: white;
+  border: none;
+  align-items: center;
+}
+#top_banner_base .menu_button button div {
+  margin-left: 40px;
+}
+#top_banner_base .menu_button button:hover {
+  background-repeat: none;
+  background-size: contain;
+  background-image: url(/homework/0826/login_icon/파랑\ 메뉴.png);
+  background-repeat: no-repeat;
+  color: blue;
+}
+#top_banner_base .menu_button img {
+  margin: auto 0;
+  width: 30px;
+  height: 30px;
+}
+#top_banner_base h3 {
+  text-align: center;
+}
+#top_banner_base .option_area {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+#top_banner_base .option_area .option_box {
+  display: flex;
+  justify-content: right;
+  height: 40px;
+  width: 800px;
+}
+/* 현대카드 혜택 시작 */
+
+#top_banner_base .option_area .option_box .option_card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 70px;
+  height: 40px;
+  overflow: hidden;
+}
+#top_banner_base .option_area .option_box .option_card:hover {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+}
+#top_banner_base .option_area .option_box .option_card .option_card_button {
+  background-image: url(/homework/0826/login_icon/card.png);
+  background-size: cover;
+  display: flex;
+  min-height: 40px;
+
+  height: 40px;
+  width: 40px;
+  border: none;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#top_banner_base .option_area .option_box .option_card .hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  min-height: 20px;
+
+  height: 20px;
+  width: 70px;
+  font-size: 10px;
+}
+/* 현대카드 혜택 끝 */
+
+/* PC방 확인 시작*/
+#top_banner_base .option_area .option_box .option_pc {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 40px;
+  overflow: hidden;
+}
+#top_banner_base .option_area .option_box .option_pc:hover {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+}
+#top_banner_base .option_area .option_box .option_pc .option_pc_button {
+  background-image: url(/homework/0826/login_icon/PC.png);
+  background-size: cover;
+  display: flex;
+  min-height: 40px;
+
+  height: 40px;
+  width: 60px;
+  border: none;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#top_banner_base .option_area .option_box .option_pc .hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  min-height: 20px;
+
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+}
+
+#top_banner_base .option_area .option_box .option_PC {
+  display: flex;
+  width: fit-content;
+}
+#top_banner_base .option_area .option_box .option_PC:hover {
+  display: flex;
+  width: fit-content;
+}
+/* 피씨방 확인 끝 */
+#top_banner_base .option_area .option_box .option_make_account {
+  font-weight: 550;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 80px;
+}
+#top_banner_base .option_area .option_box .option_make_account:hover {
+  color: blue;
+}
+#top_banner_base .option_area .option_box .option_log_in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 1000;
+  width: 100px;
+  padding: 5px;
+}
+#top_banner_base .option_area .option_box .option_log_in:hover {
+  padding: 8 5;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  border: 3px solid blue;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 1000;
+  width: 100px;
+  color: white;
+  padding: 5px;
+}
+/* 2구역 게임 광고 시작 */
+#game_ad_area {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+#game_ad_area img {
+  z-index: 1;
+}
+#game_ad_area iframe {
+  z-index: 3;
+
+  position: absolute;
+  right: 100px;
+}
+
+/* 2구역 게임 광고 끝 */
+
+.narrow {
+  margin: auto;
+  border: none;
+  width: fit-content;
+}
+/* 3번째 구역 추천게임과 로그인 */
+
+.third_first_line {
+  display: flex;
+  justify-content: space-between;
+}
+#recommend_text {
+  margin-left: 15px;
+}
+#third_area {
+  padding: 5px 0px;
+  min-width: 640px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1350px) {
+  #third_area .game_recommend_box {
+    min-width: 510px;
+    width: 510px;
+    margin-right: 15px;
+    padding: 10 0;
+
+    height: 250px;
+
+    overflow: hidden;
+  }
+}
+
+.game_recommend_box {
+  width: fit-content;
+  display: flex;
+  padding: 10 0;
+  margin-right: 20px;
+  height: 250px;
+}
+
+.game_box {
+  height: 250px;
+  width: 160px;
+  margin-right: 10px;
+}
+.game_box:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.game_box:hover .img_box img {
+  transform: scale(1.2);
+}
+.game_box .img_box {
+  transition: transform 0.3s linear;
+
+  overflow: hidden;
+}
+.game_img {
+  transition: transform 0.3s linear;
+  width: 160px;
+  height: 150px;
+}
+.game_box .text_box {
+  height: 90px;
+  background-color: white;
+  padding: 5px;
+  position: relative;
+}
+.game_box .text_box .reason {
+  position: absolute;
+  bottom: 0px;
+  color: lightslategray;
+  font-size: 14px;
+}
+.recommend {
+  font-size: 11px;
+
+  padding: 3px;
+  width: fit-content;
+  color: white;
+  background-color: aqua;
+  border-radius: 10px;
+}
+.log_in_area {
+  padding: 10 30;
+  min-width: 400px;
+  width: 400px;
+  height: 250px;
+
+  background-color: white;
+}
+.custom_safty {
+  display: flex;
+  justify-content: end;
+}
+.custom_safty .link_center {
+  line-height: 75px;
+  margin: 0 10;
+}
+.custom_safty .link_center:hover {
+  color: blue;
+}
+.log_in_area .log_in_box {
+  padding-top: 25px;
+  background-color: white;
+}
+#nexon_ID {
+  margin: 5px;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  line-height: 10px;
+}
+.log_in_box .ot_qr_login {
+  width: 50%;
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  line-height: 10px;
+}
+.log_in_box .dif_account {
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+  margin: 5px;
+  background-color: lightgray;
+}
+.dif_account .text {
+  margin: 0 15;
+  line-height: 33px;
+}
+#account_service {
+  display: flex;
+  height: 15px;
+  padding: 7px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.find {
+  display: flex;
+}
+#account_service .find_id {
+  padding: 0 5;
+}
+#account_service .find_id:hover {
+  color: blue;
+}
+#account_service .find_pw {
+  padding: 0 5;
+}
+#account_service .find_pw:hover {
+  color: blue;
+}
+#account_service .make_account:hover {
+  color: blue;
+}
+.log_in_box .dif_account .login_icon {
+  margin: 4px;
+  width: 25px;
+  height: 25px;
+}
+
+/* 네번째 구역 */
+
+#fourth_area .fourth_first_line {
+  margin-left: 15px;
+}
+#fourth_area #new_game_box {
+  max-width: 1380px;
+  height: 165px;
+  display: flex;
+  overflow: auto;
+}
+#fourth_area #new_game_box .new_game {
+  position: relative;
+
+  min-width: 330px;
+  border: none;
+  margin-right: 10px;
+  height: 160px;
+}
+#fourth_area #new_game_box .new_game .frame {
+  z-index: 1;
+  height: 50px;
+}
+#fourth_area #new_game_box .new_game .frame .top {
+  height: 40px;
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+}
+#fourth_area #new_game_box .new_game .frame .bottom {
+  height: 98px;
+  border-top: 2px solid blue;
+  padding: 10px;
+}
+#fourth_area #new_game_box .new_game .frame .bottom:hover {
+  background-color: blue;
+}
+#fourth_area #new_game_box .new_game .frame .bottom .info {
+  width: fit-content;
+  padding: 0 5;
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+#fourth_area #new_game_box .new_game .frame .bottom:hover .info {
+  width: fit-content;
+  padding: 0 5;
+  font-size: 12px;
+  color: blue;
+  background-color: white;
+  border-radius: 10px;
+}
+#fourth_area #new_game_box .new_game .frame .bottom .game_name {
+  font-weight: 800;
+  padding: 4 0;
+}
+#fourth_area #new_game_box .new_game .frame .bottom:hover .game_name {
+  color: white;
+  font-weight: 800;
+  padding: 4 0;
+}
+#fourth_area #new_game_box .new_game .frame .bottom .game_type {
+  color: gray;
+  font-size: 12px;
+}
+#fourth_area #new_game_box .new_game .frame .bottom:hover .game_type {
+  color: white;
+  font-size: 12px;
+}
+
+#fourth_area #new_game_box .new_game .img {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url(/homework/0826/game_img/fifa.jpg);
+  transform: scale(1, 1.6);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+#fourth_area #new_game_box .new_game .text {
+  font-size: 17px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 3;
+  background-color: white;
+}
+#fourth_area #new_game_box .new_game .bottom:hover .text {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 3;
+  background-color: lightblue;
+}
+/* 5번쨰 구역 */
+
+#fiveth_area .fiveth_first_line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#fiveth_area .fiveth_first_line .show_style {
+  margin-left: 15px;
+  display: flex;
+}
+#fiveth_area .fiveth_first_line .show_style .style_select {
+  margin: auto;
+  border: none;
+  align-content: center;
+}
+#fiveth_area .fiveth_first_line .search_area {
+  position: relative;
+  margin: auto 15px;
+  align-content: center;
+  border-bottom: 2px solid rgb(184, 184, 184);
+}
+#fiveth_area .fiveth_first_line .search_area .search {
+  color: rgb(184, 184, 184);
+  border: none;
+  line-height: 30px;
+  background-color: rgba(247, 247, 247, 0.973);
+  /* border-bottom: 2px solid rgb(184, 184, 184); */
+}
+#fiveth_area .fiveth_first_line .search_area .search_button {
+  position: absolute;
+  bottom: 3px;
+  right: 4px;
+  border: none;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+#fiveth_area .fiveth_first_line .search_area .search_button .search_icon {
+  width: 25px;
+  height: 25px;
+  padding: auto;
+}
+#fiveth_area .game_category {
+  line-height: 50px;
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  background-color: white;
+}
+#fiveth_area .game_category .category {
+  padding: 5 10;
+  margin: 5px;
+  color: rgb(151, 151, 151);
+  text-decoration: none;
+}
+#fiveth_area .game_category .category:hover {
+  color: blue;
+}
+#fiveth_area .device_select {
+  display: flex;
+}
+
+#fiveth_area .device_select .device_item_PC {
+  margin-left: 15px;
+}
+
+#fiveth_area .device_select .device_item_mobile {
+  color: rgb(151, 151, 151);
+  margin-left: 15px;
+}
+#fiveth_area .device_select .device_item_mobile_pick {
+  margin-left: 15px;
+}
+#fiveth_area .device_select .device_item_mobile:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 1350px) {
+  #fiveth_area #pc_game,
+  #fiveth_area #mobile_game {
+    width: 985px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+#fiveth_area #pc_game {
+  display: flex;
+  justify-content: space-between;
+}
+#fiveth_area #pc_game_box {
+  transition: transform 0.3s linear;
+  margin-bottom: 100px;
+  height: 276px;
+  overflow: hidden;
+  width: 300px;
+}
+#fiveth_area #pc_game_box .img_box {
+  height: 168px;
+  max-height: 168px;
+  width: 300px;
+  overflow: hidden;
+}
+#fiveth_area #pc_game_box img {
+  transition: transform 0.3s linear;
+  height: 168px;
+  max-height: 168px;
+  width: 300px;
+  overflow: hidden;
+}
+#fiveth_area #pc_game_box:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#fiveth_area #pc_game_box:hover img {
+  max-height: 168px;
+  height: 168px;
+  width: 300px;
+  overflow: hidden;
+  transform: scale(1.2);
+}
+
+#fiveth_area #pc_game_box .pc_game_text {
+  background-color: white;
+  height: 108px;
+  padding: 5px;
+}
+#fiveth_area #pc_game_box .pc_game_text span {
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+#fiveth_area #pc_game_box .pc_game_text p {
+  font-size: 12px;
+}
+
+#fiveth_area #mobile_game {
+  display: flex;
+  justify-content: space-between;
+}
+#fiveth_area #mobile_game_box {
+  transition: transform 0.3s linear;
+  background-color: white;
+  display: flex;
+  margin-bottom: 70px;
+  height: fit-content;
+  width: 300px;
+  height: 131px;
+}
+
+#fiveth_area #mobile_game_box:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#fiveth_area #mobile_game_box .comunity img {
+  margin: 0;
+  width: 25px;
+  height: 25px;
+}
+#fiveth_area #mobile_game_box img {
+  border-radius: 25px;
+  margin: auto 10;
+  height: 95px;
+  width: 95px;
+}
+
+#fiveth_area #mobile_game_box .mobile_game_text {
+  width: 200px;
+  display: flex;
+  position: relative;
+  background-color: white;
+  padding: 20 0;
+}
+#fiveth_area #mobile_game_box .mobile_game_text .mobile_game_name_box {
+  width: 155px;
+}
+
+#fiveth_area #mobile_game_box .mobile_game_text .mobile_game_name_box span {
+  width: 155px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 1000;
+}
+#fiveth_area
+  #mobile_game_box
+  .mobile_game_text
+  .mobile_game_name_box
+  span
+  span {
+  color: blue;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+#fiveth_area #mobile_game_box .mobile_game_text p {
+  line-height: 3px;
+  font-size: 12px;
+}
+#fiveth_area #mobile_game_box .mobile_game_text .download_possible {
+  width: 175px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 15px;
+}
+#fiveth_area #mobile_game_box .mobile_game_text .download_possible img {
+  margin: 0px;
+  width: 25px;
+  height: 25px;
+}
+#fiveth_area #mobile_game_box .mobile_game_text .download_possible .state {
+  background-color: lightgreen;
+  font-size: 10px;
+  line-height: 25px;
+  color: white;
+  padding: 0 10;
+  border-radius: 20px;
+}
+/* 6번째 이용약관 공간 시작*/
+#sixth_area {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(44, 44, 44);
+}
+#sixth_area a {
+  color: gray;
+  text-decoration: dashed;
+}
+#sixth_area .info_box {
+  padding: 10 30;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+#sixth_area .info_box a {
+  color: white;
+  text-decoration: none;
+}
+#sixth_area .info_box:hover a {
+  color: white;
+  text-decoration: underline;
+}
+#sixth_area .terms {
+  padding: 10 30;
+  display: flex;
+  justify-content: space-between;
+}
+#sixth_area .terms .terms_info_box {
+  width: 800px;
+}
+#sixth_area .terms .terms_info_box .terms_info_items {
+  display: flex;
+  flex-wrap: wrap;
+}
+#sixth_area .terms .terms_info_box .terms_info_items .terms_info_item {
+  margin: 5 0;
+  padding: 0 15;
+  max-width: 130px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+#sixth_area .terms .terms_info_box .terms_info_items a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(187, 187, 187);
+}
+
+#sixth_area .terms .terms_info_box .company_info {
+  font-size: 12px;
+  color: gray;
+}
+#sixth_area .terms .terms_info_box .home_button {
+  margin: 10 0;
+  border: none;
+  width: 100px;
+  height: 55px;
+  background-image: url(/homework/0826/nexon_logo/logo.png);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}

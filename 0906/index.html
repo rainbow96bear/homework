@@ -1,0 +1,35 @@
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div>
+      <label for="oddInput">홀수 뽑기</label>
+      <input
+        id="oddInput"
+        type="number"
+        onkeyup="if(window.event.keyCode==13){odd()}" />
+      <button onclick="odd()">입력</button>
+    </div>
+    <div>
+      <label for="evenInput">짝수 뽑기</label>
+      <input
+        id="evenInput"
+        type="number"
+        onkeyup="if(window.event.keyCode==13){even()}" />
+      <button onclick="even()">입력</button>
+    </div>
+    <div>
+      <button onclick="oddEven()">홀짝입력</button>
+    </div>
+    <div>
+      <label for="">369게임</label>
+      <button onclick="check()">시작</button>
+    </div>
+  </body>
+</html>
